@@ -1,8 +1,13 @@
 ﻿
-internal class Program
+using System;
+
+namespace HelloWorld
 {
-    private static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello, World!");
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
     }
 }

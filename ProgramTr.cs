@@ -4,11 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GitDemo
+using System;
+
+namespace HelloWorld
 {
-    internal class ProgramTr
+    class ProgramTr
     {
-        Console.WriteLine("Merhaba Dunya!");
-        Console.ReadLine();
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Merhaba Dunya!");
+        }
     }
 }
